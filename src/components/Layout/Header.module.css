@@ -1,0 +1,13 @@
+/** @format */
+
+.Header {
+  display: grid;
+  grid-template-columns: repeat(2, 20% 80%);
+  background-color: rgba(15, 130, 197, 0.979);
+  padding: 1rem;
+  z-index: 9;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}

@@ -1,0 +1,65 @@
+/** @format */
+
+.Hero {
+  position: fixed;
+  z-index: -1;
+  background-color: #0098df;
+  margin: 0 auto;
+  height: 53vh;
+  background: url("../../assets/Pictures&Logos/hero-image-black .jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-clip: border-box;
+  background-clip: border-box;
+  background-size: auto;
+  background-size: cover;
+}
+.Contents {
+  position: relative;
+  top: 80px;
+  left: 0;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.Main_Title {
+  color: white;
+  font-weight: lighter;
+  width: 70%;
+  margin: 0;
+  padding: 0.3rem 0;
+  text-align: start;
+  line-height: 1.2;
+}
+.SUbtitle {
+  margin: 0;
+  padding: 1rem 0;
+  padding-top: 0;
+  color: white;
+  font-size: 12px;
+  font-weight: thin;
+  width: 70%;
+}
+
+@media only screen and (min-width: 425px) {
+  .Hero {
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+    background-color: #0098df;
+    margin: 0 auto;
+    height: 80%;
+  }
+  .Contents {
+    width: 70%;
+    margin: 4rem auto;
+  }
+  .Main_Title {
+    font-size: 20px;
+  }
+  .SUbtitle {
+    text-align: center;
+    font-weight: bold;
+  }
+}

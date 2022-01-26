@@ -1,0 +1,22 @@
+/** @format */
+
+.Services {
+  margin: 1rem;
+}
+.Services > div {
+  font-weight: bold;
+  color: rgb(12, 126, 172);
+}
+.Services ul {
+  list-style: none;
+}
+.Services ul li {
+  padding: 0.4rem 0;
+}
+
+@media only screen and (min-width: 425px) {
+  .Services {
+    width: 70%;
+    margin: 0 auto;
+  }
+}

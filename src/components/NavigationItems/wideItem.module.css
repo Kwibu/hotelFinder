@@ -1,0 +1,8 @@
+.navigationItemWide ul {
+  list-style: none;
+  font-weight: bold;
+}
+
+.navigationItemWide a {
+  color: rgb(246, 246, 246);
+}

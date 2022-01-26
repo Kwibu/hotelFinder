@@ -1,0 +1,10 @@
+.card-management-container {
+  margin: 1rem;
+}
+.report-header {
+  font-size: 20px;
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: bold;
+}

@@ -1,0 +1,43 @@
+/** @format */
+/* 
+.SlotSelected {
+  padding: 1rem;
+}
+.SlotSelectedItem {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  gap: 0.5rem;
+  padding: 0 1rem;
+  align-items: center;
+  justify-content: center;
+}
+.SlotSelectedItem > div {
+  background-color: rgb(221, 221, 221);
+  border-radius: 12px;
+  padding: 0.6rem;
+  text-align: center;
+} */
+.ButtonContainer {
+  width: 100%;
+  margin: 0.6rem auto;
+}
+
+.ButtonContainer button {
+  width: 100%;
+  margin: 0.4rem 0;
+}
+.ButtonContainerGrid {
+  display: grid;
+  width: 95%;
+  box-sizing: border-box;
+  grid-template-columns: repeat(2, 50%);
+  gap: 0.6rem;
+}
+.ButtonContainerGrid button {
+  box-sizing: border-box;
+  margin: 0.5rem auto;
+  width: 100%;
+}
+.cardNumber-title {
+  padding: 1rem 0;
+}

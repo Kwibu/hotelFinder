@@ -1,0 +1,41 @@
+/** @format */
+
+.BookingContainer {
+  margin-top: 4rem;
+  padding: 1rem;
+}
+.HeaderBooking {
+  position: fixed;
+  top: 40px;
+  left: 0;
+  background: #fff;
+  width: 100%;
+  z-index: 3;
+  padding: 2rem 0;
+}
+.BookingHeader {
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: rgba(5, 5, 5, 0.575);
+}
+.bookingSubtitle {
+  text-align: center;
+  font-size: 13px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.486);
+}
+.bookingSubtitle span {
+  color: black;
+}
+
+@media only screen and (min-width: 425px) {
+  .BookingContainer {
+    width: 500px;
+    margin: 0 auto;
+  }
+  .BookingContainer {
+    margin-top: 6rem;
+    padding: 1rem;
+  }
+}

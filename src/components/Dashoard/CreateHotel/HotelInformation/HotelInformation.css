@@ -1,0 +1,13 @@
+/** @format */
+
+.hotel-Info-Image {
+  width: 130px;
+  margin: 0 auto;
+}
+.hotel-Info-Image img {
+  width: 100%;
+  height: 100%;
+}
+.hotel-information__container {
+  padding: 0 1rem;
+}

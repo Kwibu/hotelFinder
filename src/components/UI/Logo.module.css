@@ -1,0 +1,17 @@
+/** @format */
+
+.SwiftLogo {
+  font-weight: bold;
+  text-align: start;
+  padding: 0 1em;
+}
+.SwiftLogo img {
+  width: 60px;
+}
+
+@media (max-width: 465px) {
+  .SwiftLogo {
+    text-align: end;
+    padding: 0 2rem;
+  }
+}

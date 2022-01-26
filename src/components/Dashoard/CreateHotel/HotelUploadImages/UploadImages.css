@@ -1,0 +1,46 @@
+/** @format */
+
+.cool-information {
+  padding: 1rem;
+  padding-bottom: 0.4rem;
+  text-align: justify;
+}
+.Hotel-otherInfo {
+  padding: 0.5rem 0;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+input[type="file"] {
+  display: none;
+}
+.file-input-container {
+  margin: 0 auto;
+  width: 90%;
+  background-color: #ecac14;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 25px;
+}
+.upload-input-file {
+  color: white;
+  background-color: #ecac14;
+  border-radius: 25px;
+  padding: 1rem;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.hotel-position-desc {
+  padding: 0.3rem 2rem;
+  color: rgb(0, 22, 117);
+}
+.url-image {
+  width: 100px;
+  text-align: center;
+  margin: 0 auto;
+}
+.url-image img {
+  width: 100%;
+  height: 100%;
+}

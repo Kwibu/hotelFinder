@@ -1,0 +1,11 @@
+/** @format */
+
+.navigationItem ul {
+  list-style: none;
+  padding: 0.4rem 2rem;
+  font-weight: bold;
+}
+
+.navigationItem a {
+  color: black;
+}

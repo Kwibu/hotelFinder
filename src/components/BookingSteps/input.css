@@ -1,0 +1,92 @@
+/** @format */
+.booking-form {
+  position: relative;
+  top: 80px;
+}
+.control-group {
+  padding: 0 0.5rem;
+}
+.form-control {
+  padding: 0.4rem 0;
+  width: 100%;
+}
+
+.form-control.invalid input {
+  background: rgb(250, 119, 119);
+  color: wheat;
+  border: 1px solid red;
+}
+.error-form {
+  color: red;
+}
+
+.form-control label,
+.form-control input,
+.form-control textarea {
+  width: 100%;
+}
+.form-control label {
+  padding: 0.3rem 0;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.719);
+}
+.form-control input {
+  box-sizing: border-box;
+  outline: none;
+  padding: 0.6rem;
+  margin: 0.3rem 0;
+  border: 1px solid rgb(4, 145, 158);
+}
+.form-control textarea {
+  box-sizing: border-box;
+  outline: none;
+  padding: 0.6rem;
+  margin: 0.3rem 0;
+  border: 1px solid rgb(4, 145, 158);
+  height: 80px;
+}
+.total-reservation-payment {
+  padding: 1rem 0;
+}
+.total-reservation-payment span {
+  font-weight: bold;
+}
+.payment-reservation-information {
+  font-weight: lighter;
+}
+.payment-reservation-information span {
+  font-weight: bold;
+}
+.payment-gateway {
+  border: 1px solid black;
+  padding: 1rem;
+  margin: 0.5rem 0;
+}
+.LoginContainer {
+  padding: 0 1.5rem;
+  padding-top: 6rem;
+}
+.signUpNav {
+  font-size: 13px;
+  text-align: end;
+  padding-right: 0.3rem;
+}
+.signUpNav a {
+  color: blue;
+}
+.signUpNav a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+.LoginHeader {
+  font-weight: bold;
+  font-size: 23px;
+}
+
+@media only screen and (min-width: 425px) {
+  .control-group {
+    width: 400px;
+    margin: 0 auto;
+    padding: 0 0.5rem;
+  }
+}

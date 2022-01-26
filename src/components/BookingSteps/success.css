@@ -1,0 +1,14 @@
+/** @format */
+
+.successfulPage {
+  display: grid;
+  margin-top: 5rem;
+  align-items: center;
+  justify-content: center;
+}
+.Success-tile {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(58, 58, 58);
+  padding-bottom: 2rem;
+}

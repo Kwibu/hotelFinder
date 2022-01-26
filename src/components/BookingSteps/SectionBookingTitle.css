@@ -1,0 +1,51 @@
+/** @format */
+.SectionBooking {
+  position: fixed;
+  box-sizing: border-box;
+  top: 110px;
+  margin: 1rem 0;
+  z-index: 7;
+}
+.SectionBookingTitle {
+  background-color: rgb(17, 104, 175);
+  padding: 0.6rem 4rem;
+  color: aliceblue;
+  width: 100%;
+  font-weight: bold;
+  outline: none;
+}
+.SectionBookingNumbering {
+  position: absolute;
+  top: -5px;
+  z-index: 1;
+  padding: 0.7rem 0.7rem;
+  background: rgba(13, 79, 122, 0.993);
+  color: aliceblue;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 1rem;
+  width: 25px;
+  text-align: center;
+  border-radius: 10px;
+  border: none;
+}
+@media only screen and (min-width: 425px) {
+  .SectionBooking {
+    position: fixed;
+    box-sizing: border-box;
+    top: 110px;
+    margin: 1rem 0;
+    width: 365px;
+    z-index: 7;
+  }
+  .SectionBookingTitle {
+    position: absolute;
+    width: 100%;
+    background-color: rgb(17, 104, 175);
+    padding: 0.6rem 4rem;
+    color: aliceblue;
+    width: 100%;
+    font-weight: bold;
+    outline: none;
+  }
+}

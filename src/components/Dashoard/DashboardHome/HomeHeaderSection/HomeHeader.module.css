@@ -1,0 +1,21 @@
+.HomeHeader {
+  padding: 1rem;
+  width: 60%;
+  margin: 0 auto;
+}
+.HomeHeaderTitle {
+  font-size: 30px;
+  padding: 1rem;
+  text-align: inherit;
+}
+.HomeHeaderSubtitle {
+  font-size: 16px;
+  padding: 0 1rem;
+  padding-bottom: 2rem;
+}
+
+@media only screen and (max-width: 435px) {
+  .HomeHeader {
+    display: none;
+  }
+}

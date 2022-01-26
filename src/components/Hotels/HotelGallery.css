@@ -1,0 +1,35 @@
+/** @format */
+
+.gallery {
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+  -webkit-column-width: 33%;
+  -moz-column-width: 39%;
+  column-width: 33%;
+  padding: 0 2px;
+}
+
+.gallery .pics {
+  -webkit-transition: all 350ms ease;
+  transition: all 350ms ease;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+.gallery-container {
+  padding: 1rem;
+}
+.gallery-container > div:first-child {
+  padding: 1rem 0;
+  color: rgb(3, 118, 172);
+  font-weight: bold;
+}
+.pics img {
+  border-radius: 10px;
+}
+@media only screen and (min-width: 425px) {
+  .gallery-container {
+    width: 70%;
+    margin: 0 auto;
+  }
+}

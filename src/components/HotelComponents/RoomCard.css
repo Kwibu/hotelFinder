@@ -1,0 +1,38 @@
+/** @format */
+.room-card-container {
+  padding-top: 1rem;
+  box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.287);
+}
+.room-card-image {
+  width: 100%;
+  height: 200px;
+}
+.room-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.room-type-information {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  padding: 1rem;
+}
+.room-type-information > div:last-child {
+  text-align: right;
+}
+.room-type-title div:first-child {
+  font-size: 20px;
+  font-weight: bold;
+}
+.room-type-title div:nth-child(2) {
+  font-weight: bold;
+  font-size: 14px;
+  padding: 0.3rem 0;
+}
+.room-type-right-info > p {
+  margin: 0 auto;
+  text-align: center;
+  padding-left: 2rem;
+  padding-top: 0.2rem;
+  font-size: 13px;
+}

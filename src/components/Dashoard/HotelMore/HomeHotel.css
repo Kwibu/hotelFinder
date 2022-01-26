@@ -1,0 +1,33 @@
+/** @format */
+
+.new-home-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  width: 80%;
+  gap: 2rem;
+  margin: 2rem auto;
+}
+.button-new-home {
+  box-shadow: 2px 2px 2px 2px rgba(172, 172, 172, 0.424);
+  background: linear-gradient(rgb(246, 246, 246), rgb(202, 202, 202));
+  border-radius: 20px;
+  padding: 1rem;
+  width: 100%;
+  font-weight: bold;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.new-dash-home-container {
+  text-align: center;
+}
+.new-dash-home-title {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 20px;
+  padding: 1rem 0;
+}
+.new-dash-home-subtitle {
+  width: 80%;
+  margin: 0 auto;
+}

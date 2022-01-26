@@ -1,0 +1,12 @@
+.SideMenu {
+  padding: 0.3rem 1rem;
+}
+a {
+  color: #fff;
+}
+a:hover {
+  color: rgb(223, 223, 223);
+}
+.SignOut {
+  cursor: pointer;
+}

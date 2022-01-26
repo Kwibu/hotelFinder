@@ -1,0 +1,39 @@
+/** @format */
+
+.landingPageContainer {
+  width: 90%;
+  padding-top: 5rem;
+  margin: 0 auto;
+}
+
+.landingImage {
+  width: 100%;
+}
+.landingImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.LandingHeader {
+  text-align: center;
+  font-weight: bold;
+  font-size: 23px;
+  padding: 1rem;
+}
+.LandingHeaderSubtitle {
+  text-align: center;
+  font-weight: lighter;
+  padding-bottom: 2rem;
+}
+
+@media only screen and (min-width: 450px) {
+  .landingPageContainer {
+    width: 500px;
+    padding-top: 5rem;
+    margin: 0 auto;
+  }
+  .landingImage {
+    width: 100%;
+    height: 300px;
+  }
+}

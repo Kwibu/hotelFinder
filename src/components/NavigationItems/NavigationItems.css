@@ -1,0 +1,22 @@
+/** @format */
+
+.Logo-Nav-bar {
+  padding: 2rem 7rem;
+  display: flex;
+  align-items: center;
+}
+.NavigationItemWide {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  list-style: none;
+  gap: 1rem;
+  color: white;
+  justify-content: flex-end;
+  padding-right: 2rem;
+}
+@media only screen and (max-width: 499px) {
+  .NavigationItemWide {
+    display: none;
+  }
+}

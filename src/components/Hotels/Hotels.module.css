@@ -1,0 +1,33 @@
+/** @format */
+
+.HotelsContainer {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 21.4rem;
+  background-color: white;
+}
+.HotelsContainer > div:first-child {
+  padding: 1rem;
+}
+.HotelsContainer ul {
+  margin: 0;
+  padding: 1rem;
+  padding-top: 0;
+}
+@media only screen and (min-width: 425px) {
+  .HotelsContainer {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 30.4rem;
+    background-color: white;
+  }
+  .HotelsContainer ul {
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+  }
+}
