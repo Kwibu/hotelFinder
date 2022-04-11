@@ -3,3 +3,9 @@
 2 clone your project then open project in your favorite IDE or tex editor like Visual Studio Code or Atom, at thetop of visual studio code click on terminal then in terminal Type bellow
 
  npm install
+
+ 3 when you finish to install type
+
+ npm start
+
+ 4
